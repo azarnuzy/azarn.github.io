@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/7f67acf21c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="./CSS/crocs.css" />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <div class="header-placeholder">
+      <div class="page-header container pt-3">
+        <div class="row justify-content-between">
+          <div class="container">
+            <div class="row align-items-start">
+              <div class="col">
+                <ul class="nav justify-content-begin">
+                  <li class="nav-item eng-flag">
+                    <div class="dropdown">
+                      <img
+                        src="./img/640px-Flag_of_the_United_Kingdom.svg.webp"
+                        alt="english-flag"
+                        class="dropdown-toggle"
+                        id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      />
+                      <a
+                        style="
+                          text-decoration: none;
+                          color: #999;
+                          font-size: 11px;
+                        "
+                        href="#"
+                        class="dropdown-toggle"
+                        id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        >ENG</a
+                      >
+
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton1"
+                      >
+                        <li>
+                          <a class="dropdown-item" href="#">
+                            <div class="country">
+                              <img
+                                src="./img/640px-Flag_of_the_United_Kingdom.svg.webp"
+                                alt="english-flag"
+                              />
+                            </div>
+                            <div class="country">
+                              <span>ENG</span>
+                            </div>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">
+                            <div class="country">
+                              <img
+                                src="./img/1280px-Flag_of_Indonesia.svg.png"
+                                alt="english-flag"
+                              />
+                            </div>
+                            <div class="country">
+                              <span>INA</span>
+                            </div>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sign-in</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Cross Club</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col text-center">
+                <img
+                  src="./img/logo_crocs.png"
+                  alt="Logo_Crocs"
+                  style="width: 188px; margin: auto"
+                />
+              </div>
+              <div class="col">
+                <ul class="nav justify-content-end">
+                  <li class="nav-item">
+                    <a class="nav-link nav-link2" href="#">Order Status</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-link2" href="#">Stores</a>
+                  </li>
+                </ul>
+                <form class="form-inline" action="/action_page.php">
+                  <input
+                    class="form-control mr-sm-2"
+                    type="text"
+                    placeholder="Search entire store here..."
+                  />
+                </form>
+              </div>
+            </div>
+            <div class="row justify-content-end page-header2">
+              <div class="col-6 text-center main-menu">
+                <ul class="nav justify-content-center">
+                  <li class="nav-item dropdown1">
+                    <a class="nav-link" href="#">Men</a>
+                    <div>
+                      <div class="dropdown-content w-100">
+                        <div class="row">
+                          <div class="col-sm-3">
+                            <span class="text-start"
+                              ><a href="#"
+                                ><strong>Our Favorites</strong></a
+                              ></span
+                            >
+                            <span class="text-start menu-content">
+                              <a href="#"
+                                ><i class="fas fa-star"></i> New Arrivals</a
+                              >
+                            </span>
+                            <span class="text-start menu-content">
+                              <a href="#"
+                                ><i class="fas fa-heart"></i> Best Seller</a
+                              >
+                            </span>
+                          </div>
+                          <div class="col-sm-3">
+                            <span class="text-start"
+                              ><a href="#"><strong>Styles</strong></a></span
+                            >
+                            <span class="text-start menu-content">
+                              <a href="#"
+                                ><img src="./img/ves-03.png" alt="#" /> Clogs</a
+                              >
+                            </span>
+                            <span class="text-start menu-content">
+                              <a href="#"
+                                ><img src="./img/ves-06.png" alt="#" />
+                                Flip-flops</a
+                              >
+                            </span>
+                            <span class="text-start menu-content">
+                              <a href="#"
+                                ><img src="./img/ves-14.png" alt="#" />
+                                Sandals</a
+                              >
+                            </span>
+                            <span class="text-start menu-content">
+                              <a href="#"
+                                ><img src="./img/ves-11.png" alt="#" /> Shoes</a
+                              >
+                            </span>
+                          </div>
+                          <div class="col-sm-3">
+                            <span class="text-start"
+                              ><a href="#"><strong>Collection</strong></a></span
+                            >
+                            <span class="text-start menu-content">
+                              <a href="#"
+                                ><img src="./img/ves-03.png" alt="#" /> Clogs</a
+                              >
+                            </span>
+                            <span class="text-start menu-content">
+                              <a href="#"
+                                ><img src="./img/ves-06.png" alt="#" />
+                                Flip-flops</a
+                              >
+                            </span>
+                            <span class="text-start menu-content">
+                              <a href="#"
+                                ><img src="./img/ves-14.png" alt="#" />
+                                Sandals</a
+                              >
+                            </span>
+                          </div>
+                          <div class="col-sm-3"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Women</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Unisex</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Kids</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">New Arrival</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sale</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-3 text-end checkout-header">
+                <a href="#" style="text-decoration: none"
+                  ><i class="fas fa-shopping-cart"></i
+                  ><span class="dot sec counter counter-lg">0</span
+                  >&nbsp;&nbsp;</a
+                >
+                <span style="margin-left: -10px"
+                  ><a href="#" style="text-decoration: none; color: #303030"
+                    ><strong>Checkout</strong></a
+                  ></span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header End -->
+    <br />
+    <!-- Main Start -->
+    <div class="maincontent">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./img/crocs_main_banner_1__2.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/crocs_main_banner_1__4.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/crocs_main_banner_1__6.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/crocs_main_banner_7.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon"
+            aria-hidden="true"
+            style="padding: 20px; background-color: silver"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon"
+            aria-hidden="true"
+            style="padding: 20px; background-color: silver"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br />
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-2 varian-menu text-center">
+            <a href="#"
+              ><img
+                src="./img/310x193-Shop-Unisex.jpg"
+                alt="#"
+                class="img-fluid"
+            /></a>
+            <span><strong>Shop Unisex</strong></span>
+          </div>
+          <div class="col-sm-2 varian-menu text-center">
+            <a href="#"
+              ><img
+                src="./img/310x193-Shop-Women.jpg"
+                alt="#"
+                class="img-fluid"
+            /></a>
+            <span><strong>Shop Women</strong></span>
+          </div>
+          <div class="col-sm-2 varian-menu text-center">
+            <a href="#"
+              ><img src="./img/310x193-Shop-Men.jpg" alt="#" class="img-fluid"
+            /></a>
+            <span><strong>Shop Men</strong></span>
+          </div>
+          <div class="col-sm-2 varian-menu text-center">
+            <a href="#"
+              ><img src="./img/310x193-Shop-Kids.jpg" alt="#" class="img-fluid"
+            /></a>
+            <span><strong>Shop Kids</strong></span>
+          </div>
+          <div class="col-sm-2 varian-menu text-center">
+            <a href="#"
+              ><img src="./img/310x193.jpg" alt="#" class="img-fluid"
+            /></a>
+            <span><strong>Shop Jibbitz</strong></span>
+          </div>
+          <div class="col-sm-2 varian-menu text-center">
+            <a href="#"
+              ><img
+                src="./img/310x193-Special-Collection.jpg"
+                alt="#"
+                class="img-fluid"
+                class="img-fluid"
+            /></a>
+            <span><strong>Shop Collection</strong></span>
+          </div>
+        </div>
+        <div class="row menu-collections">
+          <div class="col-sm-6 text-center menu-collection">
+            <a href="#"
+              ><img
+                src="./img/LITERIDE_-_465x250.jpg"
+                alt="#"
+                class="img-fluid"
+            /></a>
+            <div class="text-collection">
+              <span>Crocs Literide</span>
+              <span
+                ><a href="#"><strong>Shop Literide Collection</strong></a></span
+              >
+            </div>
+          </div>
+          <div class="col-sm-6 text-center menu-collection">
+            <a href="#"
+              ><img
+                src="./img/CLASSIC_465x250-1_1.jpg"
+                alt="#"
+                class="img-fluid"
+            /></a>
+            <div class="text-collection">
+              <span>Crocs Classic</span>
+              <span
+                ><a href="#"><strong>Shop Classic Collection</strong></a></span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="row menu-collections">
+          <div class="col-sm-6 text-center menu-collection">
+            <a href="#"
+              ><img
+                src="./img/SANDALS_-_465x250-2.jpg"
+                alt="#"
+                class="img-fluid"
+            /></a>
+            <div class="text-collection">
+              <span>Crocs Sandals</span>
+              <span
+                ><a href="#"><strong>Shop Sandal Collection</strong></a></span
+              >
+            </div>
+          </div>
+          <div class="col-sm-6 text-center menu-collection">
+            <a href="#"
+              ><img
+                src="./img/JIBBITZ_-_465x250-4.jpg"
+                alt="#"
+                class="img-fluid"
+            /></a>
+            <div class="text-collection">
+              <span>Crocs Jibbitz</span>
+              <span
+                ><a href="#"><strong>Shop Jibbitz Collection</strong></a></span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="container text-center style-collection">
+        <h2><strong> SHOP BY STYLE </strong></h2>
+      </div>
+      <div class="container style-collection">
+        <div class="row justify-content-center">
+          <div class="col-sm-1 item-shop-style text-end">
+            <a href="#"
+              ><img src="./img/clog.svg" alt="#" class="img-fluid" />Clogs</a
+            >
+          </div>
+          <div class="col-sm-1 item-shop-style text-center">
+            <a href="#"
+              ><img src="./img/shoe.svg" alt="#" class="img-fluid" />Flip</a
+            >
+          </div>
+          <div class="col-sm-1 item-shop-style text-end">
+            <a href="#"
+              ><img src="./img/clog.svg" alt="#" class="img-fluid" />Sandlas</a
+            >
+          </div>
+          <div class="col-sm-1 item-shop-style text-end">
+            <a href="#"
+              ><img src="./img/shoe.svg" alt="#" class="img-fluid" />Shoes</a
+            >
+          </div>
+          <div class="col-sm-1 item-shop-style text-end">
+            <a href="#"
+              ><img src="./img/clog.svg" alt="#" class="img-fluid" />Slides</a
+            >
+          </div>
+          <div class="col-sm-1 item-shop-style text-end">
+            <a href="#"
+              ><img src="./img/shoe.svg" alt="#" class="img-fluid" />Heels</a
+            >
+          </div>
+          <div class="col-sm-1 item-shop-style text-end">
+            <a href="#"
+              ><img src="./img/clog.svg" alt="#" class="img-fluid" />Flats</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="container text-center instagram-collection">
+        <h2><strong> INSTAGRAM </strong></h2>
+      </div>
+      <div class="container text-center instagram-collection">
+        <div class="row">
+          <div class="col">
+            <div class="bg-image ripple" data-mdb-ripple-color="light">
+              <img src="./img/ig1.jpg" class="w-100" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
+                  <div
+                    class="d-flex justify-content-center align-items-center h-100"
+                  >
+                    <i class="fab fa-instagram text-white mb-0"></i>
+                  </div>
+                </div>
+                <div class="hover-overlay">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(0, 0, 0, 0.5)"
+                  ></div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="bg-image ripple" data-mdb-ripple-color="light">
+              <img src="./img/ig2.jpg" class="w-100" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
+                  <div
+                    class="d-flex justify-content-center align-items-center h-100"
+                  >
+                    <i class="fab fa-instagram text-white mb-0"></i>
+                  </div>
+                </div>
+                <div class="hover-overlay">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(0, 0, 0, 0.5)"
+                  ></div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="bg-image ripple" data-mdb-ripple-color="light">
+              <img src="./img/ig3.jpg" class="w-100" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
+                  <div
+                    class="d-flex justify-content-center align-items-center h-100"
+                  >
+                    <i class="fab fa-instagram text-white mb-0"></i>
+                  </div>
+                </div>
+                <div class="hover-overlay">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(0, 0, 0, 0.5)"
+                  ></div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="bg-image ripple" data-mdb-ripple-color="light">
+              <img src="./img/ig4.jpg" class="w-100" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
+                  <div
+                    class="d-flex justify-content-center align-items-center h-100"
+                  >
+                    <i class="fab fa-instagram text-white mb-0"></i>
+                  </div>
+                </div>
+                <div class="hover-overlay">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(0, 0, 0, 0.5)"
+                  ></div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="bg-image ripple" data-mdb-ripple-color="light">
+              <img src="./img/ig5.jpg" class="w-100" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
+                  <div
+                    class="d-flex justify-content-center align-items-center h-100"
+                  >
+                    <i class="fab fa-instagram text-white mb-0"></i>
+                  </div>
+                </div>
+                <div class="hover-overlay">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(0, 0, 0, 0.5)"
+                  ></div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center rec-collection">
+        <h2><strong> RECOMMENDED JUST FOR YOU </strong></h2>
+      </div>
+      <div class="container text-center rec-collection">
+        <div class="row">
+          <div class="col">
+            <a href="#"
+              ><img
+                src="./img/rec1.jpg"
+                alt=""
+                class="img-fluid hover-shadow"
+              />Crocs Men's LiteRide Modform Slip On - Light Grey/White</a
+            ><br />
+            <span><strong>Rp 1,199,000.00</strong></span>
+          </div>
+          <div class="col">
+            <a href="#"
+              ><img
+                src="./img/rec2.jpg"
+                alt=""
+                class="img-fluid hover-shadow"
+              />Crocs Women's LiteRide Stretch Sandal - Pink</a
+            ><br />
+            <span><strong>Rp 899,000.00</strong></span>
+          </div>
+          <div class="col">
+            <a href="#"
+              ><img
+                src="./img/rec3.jpg"
+                alt=""
+                class="img-fluid hover-shadow"
+              />Crocs Women's LiteRide Mary Jane Shoes - Light Grey/White</a
+            ><br />
+            <span><strong>Rp 959,000.00</strong></span>
+          </div>
+          <div class="col">
+            <a href="#"
+              ><img
+                src="./img/rec4.jpg"
+                alt=""
+                class="img-fluid hover-shadow"
+              />Crocs Unisex Classic Sandal - Black</a
+            ><br />
+            <span><strong>Rp 559,000.00</strong></span>
+          </div>
+          <div class="col">
+            <a href="#"
+              ><img
+                src="./img/rec5.jpg"
+                alt=""
+                class="img-fluid hover-shadow"
+              />Crocs Kid's Fun Lab Shark Lights Clog - Navy</a
+            ><br />
+            <span><strong>Rp 699,000.00</strong></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Main end -->
+    <!-- Footer Start -->
+    <footer>
+      <div class="container top-footer">
+        <div class="row">
+          <div class="col-sm-2 footer-item">
+            <span><strong>MY ACCOUNT</strong></span>
+            <a href="#">Sign In/Sign Up</a>
+            <a href="#">Order Status</a>
+          </div>
+          <div class="col-sm-2 footer-item">
+            <span><strong>SHOP CROCS</strong></span>
+            <a href="#">Shop Men</a>
+            <a href="#">Shop Women</a>
+            <a href="#">Sale</a>
+            <a href="#">Store Locator</a>
+          </div>
+          <div class="col-sm-2 footer-item">
+            <span><strong>SHOP CROCS</strong></span>
+            <a href="#">Shop Men</a>
+            <a href="#">Shop Women</a>
+            <a href="#">Sale</a>
+            <a href="#">Store Locator</a>
+          </div>
+          <div class="col-sm-2 footer-item">
+            <span><strong>SHOP CROCS</strong></span>
+            <a href="#">Shop Men</a>
+            <a href="#">Shop Women</a>
+            <a href="#">Sale</a>
+            <a href="#">Store Locator</a>
+          </div>
+          <div class="col-sm-3 footer-right">
+            <span><strong>Sign Up to receive email promotion</strong></span>
+            <div class="input-group email-footer">
+              <input
+                type="search"
+                class="form-control rounded"
+                placeholder="Enter your email address"
+                aria-label="Search"
+                aria-describedby="search-addon"
+                style="font-size: 11px; padding-right: 30px"
+              />
+              <button
+                type="button"
+                class="btn btn-outline-dark"
+                style="color: white; border: 0.5px solid white"
+              >
+                SUBMIT
+              </button>
+            </div>
+            <span><strong>STAY CONNECTED</strong></span>
+            <br />
+            <div class="icons-footer">
+              <a href="#"><i class="fab fa-instagram icon-footer"></i></a>
+              <a href="#"><i class="fab fa-facebook icon-footer"></i></a>
+              <br />
+              <a href="#"><i class="fas fa-envelope icon-footer"></i>Email</a>
+              <a href="#" class="chat-offline">Chat Offline</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-footer text-center">
+        <div class="bottom-footer">
+          <span>
+            Please be advised that this website is not owned or operated by
+            Crocs, Inc. or any of its affiliates or subsidiaries. This website
+            is independently owned and operated by PT. MAP AKTIF Adiperkasa tbk,
+            an authorized Distributor of Crocs, Inc. and its wholly owned
+            subsidiary.
+          </span>
+          <div class="space"></div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

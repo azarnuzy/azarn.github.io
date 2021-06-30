@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  background-color: #f5f5f5;
+}
+
+header,
+.container {
+  background-color: white;
+}
+
+main .container {
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  overflow: auto;
+}
+/* HEADER START */
+header {
+  border-bottom: 1px solid #dedede;
+  margin-bottom: 20px;
+}
+
+.header-left {
+  float: left;
+  background-color: #346abb;
+  color: white;
+  padding: 10px 20px 20px;
+  border-radius: 0 0 30px 30px;
+}
+
+.header-left h1 {
+  line-height: 0.5;
+}
+
+.header-right {
+  padding-top: 20px;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  display: inline;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 20px;
+}
+
+.active {
+  background-color: #346abb;
+  color: white;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #346abb;
+  color: white;
+}
+
+.navbar i {
+  display: none;
+}
+/* HEADER END */
+
+/* ASIDE START */
+aside {
+  border: 1px solid #dedede;
+  width: 30%;
+  float: left;
+  text-align: left;
+  padding: 0;
+  background-color: white;
+  border-radius: 10px;
+}
+
+aside h3,
+span {
+  margin: 0 10px;
+  display: block;
+}
+
+aside h3 {
+  font-size: 18px;
+  margin: 20px 10px;
+}
+
+.profile {
+  border-bottom: 1px solid #dedede;
+  display: block;
+}
+
+.profile img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.desc-profile {
+  overflow: auto;
+  margin-bottom: 30px;
+}
+
+.desc-profile span {
+  line-height: 2;
+  font-size: 13px;
+}
+
+.left-desc {
+  float: left;
+  width: 35%;
+}
+
+.right-desc {
+  float: right;
+  width: 60%;
+}
+
+.attachment {
+  border-bottom: 1px solid #dedede;
+  margin-bottom: 30px;
+}
+
+.attachment ul {
+  margin-bottom: 30px;
+}
+
+.socialProfile {
+  border-bottom: 1px solid #dedede;
+}
+
+.socialProfile ul {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  list-style-type: none;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.socialProfile ul li {
+  display: inline;
+  font-size: 30px;
+  padding: 5px;
+  list-style-type: none;
+}
+
+.socialProfile ul a {
+  color: #346abb;
+}
+
+.form {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+input[type="text"],
+textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 6px 0 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #346abb;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* ASIDE END */
+/* MAIN CONTENT START */
+main {
+  margin-bottom: 50px;
+}
+
+.content {
+  border: 1px solid #dedede;
+  width: 69%;
+  float: right;
+  background-color: white;
+  border-radius: 10px;
+  overflow: auto;
+  margin-bottom: 8px;
+}
+
+.content h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-indent: 10px;
+  border-bottom: 1px solid #dedede;
+  line-height: 2;
+}
+
+.descMe {
+  float: left;
+  width: 49%;
+  margin-bottom: 30px;
+}
+
+.descMe p {
+  font-size: 13px;
+  display: flex;
+  align-items: stretch;
+}
+
+.descMe span {
+  width: 50%;
+}
+
+.explanation {
+  margin: 0 10px;
+}
+
+.explanation p {
+  text-align: justify;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-col {
+  display: flex;
+  flex-direction: row;
+}
+
+.service-row {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.icon-service {
+  font-size: 60px;
+  color: white;
+  background-color: #346abb;
+  width: fit-content;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 30%;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-row {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.skill {
+  flex: 1 1 0;
+}
+
+.skill p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.progress {
+  background-color: #d8d8d8;
+  border-radius: 4px;
+  height: 30px;
+  flex-basis: 40%;
+  width: 100%;
+}
+
+.progress-done {
+  background-color: #346abb;
+  border-radius: 4px 0 0 4px;
+  height: 100%;
+  opacity: 0;
+  width: 0;
+  transition: 1s ease 0.3s;
+}
+/* Main Content End */
+
+/* footer */
+
+footer {
+  background-color: #1a1a1a;
+}
+
+footer .container {
+  color: white;
+  background-color: #1a1a1a;
+  text-align: center;
+}
