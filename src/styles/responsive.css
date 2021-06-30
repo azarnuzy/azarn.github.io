@@ -1,0 +1,46 @@
+@media screen and (max-width: 1170px) {
+  .page {
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+    position: unset;
+  }
+
+  .menu-item {
+    transition: max-height 0.2s ease-out;
+  }
+
+  .menu-item li a {
+    padding: 15px;
+  }
+
+  ul.main-menu {
+    right: 0;
+  }
+
+  .impixels-arrows-nav {
+    right: 0;
+  }
+
+  .animated-sections {
+    border-radius: 0;
+  }
+
+  aside {
+    display: none;
+  }
+
+  .title-block h2 {
+    font-size: 30px;
+  }
+
+  .title-block h4 {
+    font-size: 17px;
+    margin-top: 20px;
+    color: #b5b6b7;
+  }
+
+  .content-area {
+    max-width: 100%;
+  }
+}
